@@ -7,7 +7,7 @@ public class onhit : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Player"){
-            SceneManager.LoadScene("Main Menu");
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }
